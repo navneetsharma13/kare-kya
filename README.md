@@ -13,6 +13,9 @@ model download, or running services have been created by this scaffold.
 3. Walk through the [development lifecycle](docs/lifecycle.md).
 4. Approve the [application architecture](docs/architecture.md) before feature code.
 
+Joining from another machine? Start with the [developer onboarding kit](developer-onboarding/README.md)
+or run `/onboard-developer` in VS Code Copilot.
+
 ## Folder Map
 
 ```text
@@ -28,6 +31,7 @@ docs/
   decisions/                Architecture decision records
   evidence/                 Verification and human acceptance records
 specs/                      Feature specifications and acceptance criteria
+developer-onboarding/       Portable bootstrap prompt and teammate setup guide
 backend/                    Future FastAPI, PydanticAI, and news MCP implementation
 frontend/                   Future React/TypeScript/Vite implementation
 fixtures/                   Explicitly labeled, provenance-preserving sample data
